@@ -1,0 +1,170 @@
+/*-----------------------------> Media Query for mobile <------------------------------- */
+
+@media (max-width: 392px) {
+
+    /*-----------------------------> navigation bar <----------------------------------- */
+    
+    .nav{
+        height: 50vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .nav-logo{
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 5vw;
+        width: 50vw;
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+    }
+    
+    .nav-story{
+        font-family: Helvetica, Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        font-size: 4vw;
+        font-weight:lighter ;
+    }
+
+    .nav-story-item{
+        margin: 1vh 0vw;
+    }
+    
+    .nav-donate{
+        display: flex;
+        justify-content: center;
+        background: #c1f7d5;
+        border-radius: 5vw;
+        padding: 1.5% 1.2%;
+        width: 80vw;
+        margin-left: 10vw;
+        min-width: 7em;
+        min-height: 1.5em;
+        font-size: 4vw;
+    }
+    
+    a:link{
+        color: #354463;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #354463;
+        text-decoration: none;
+      }
+    
+    /*-----------------------> Images with box and HashTag image <--------------------- */
+    
+    .slide-img{
+    background-image: url('../images/mobile-background.png');
+    height: 157vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+    .hash-tag-img{
+        height: 48vh;
+        width: 40vw;
+        position: absolute;
+        top: 10vw;
+        left: 10vw;
+    }
+
+    .issue-box{
+        width: 76vw;
+        height: 40vw;
+        padding: 4vh 4vw;
+        position: absolute;
+        top: 80vw;
+        left: 8vw;
+    }
+
+    .issue-head{
+        font-size: 3.6vw;
+        height: 20vh;
+        width: 34vw;
+        padding: 2vh 2.5vw;
+        bottom: 7vh;
+        left: 18vw;
+        text-align: center;
+    }    
+    .issue-big-text{
+        font-size: 6vw;
+        margin-top: -6vw;
+        text-align: center;
+    }
+
+    .issue-small-text{
+        font-size: 4.3vw;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 6vw;
+        font-weight: lighter;
+    }
+
+    /*-----------------------------------> footer <------------------------------------- */
+
+    .action-head{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-weight: lighter;
+        font-size: 3.6vw;
+        height: 3.6vh;
+        width: 22vh;
+        margin-top: -5vw;
+        margin-left: 2vw;;
+        max-width: 30vw;
+    }
+
+    .foot-action{
+        height: 44vh;
+        width: 84vw;
+        flex-wrap: wrap;
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    
+    .foot-col-1{
+        height: 22vh;
+        width: 36vw;
+        padding-right: 2vw;
+        padding-top: 10vw;
+    }
+
+    .foot-col-2{
+        height: 22vh;
+        width: 36vw;
+        padding-left: 2vw;
+        padding-top: 10vw;
+    }
+    
+    .foot-col-3{
+        height: 22vh;
+        width: 36vw;
+        padding-right: 2vw;
+    }
+
+    .foot-col-4{
+        height: 22vh;
+        width: 36vw;
+        padding-left: 2vw;
+    }
+
+    .foot-col-head{
+        font-size: 5vw;
+        margin-bottom: 2.5vw;
+    }
+    
+    .foot-col-content{
+        font-size: 3.5vw;
+        font-weight: lighter;
+    }    
+  
+}   
