@@ -1,0 +1,7 @@
+/*------------> reset css file for no padding and no margin with default color <--------- */
+
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #C1F7D5;
+}
