@@ -1,0 +1,198 @@
+/*-----------------------------> navigation bar <--------------------------------------- */
+
+.nav{
+    font-family: Helvetica, Arial, sans-serif;
+    height: 18vh;
+    background: #ffffff;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo{
+    font-size: 1.5vw;
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    width: 50vw;
+    font-size: 1.2vw;
+    font-weight: lighter;
+}
+
+.nav-donate{
+    display: flex;
+    justify-content: center;
+    background: #c1f7d5;
+    border-radius: 5vw;
+    padding: 0.6% 0.8%;
+    width: 8vw;
+    min-width: 7em;
+    min-height: 1.5em;
+    margin-right: 10vw;
+    font-size: 1.5vw;
+}
+
+a:link{
+    color: #354463;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #354463;
+    text-decoration: none;
+  }
+
+/*-----------------------> Images with box and HashTag image <--------------------------- */
+
+.slide-img{
+    background-image: url('../images/desktop-background.png');
+    height: 46vw;
+    /* width: 100vw; */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hash-tag-img{
+    background-image: url('../images/hash-tag.png');
+    height: 24vh;
+    width: 16vw;
+    padding: 2vh 2vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top:16vh;
+    right: 22vw;
+    }
+
+.issue-box{
+    font-family: Helvetica, Arial, sans-serif;
+    background: white;
+    width: 28.5vw;
+    height: 26vw;
+    color: #354463;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 5vw;
+    position: absolute;
+    top:16vh;
+    left: 20vh;
+}
+
+.issue-head{
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    background: #354463;
+    height: 2vh;
+    width: 18vh;
+    padding: 1em 1em;
+    position: relative;
+    bottom: 5vh;
+}
+
+.issue-big-text{
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: left;
+    opacity: 1;
+}
+
+.issue-small-text{
+    font-size: 1.1vw;
+    font-weight: lighter;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 3vw;
+}
+
+/*----------------------------------------> footer <--------------------------------------*/
+
+.action-head{
+    font-weight: lighter;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    opacity: 1;
+    background: #354463;
+    height: 3vh;
+    width: 16vh;
+    padding: 0.7em 1.4em;
+    position: absolute;
+    margin-top: -1.5vw;
+}
+
+.foot-action{
+    font-family: Helvetica, Arial, sans-serif;
+    height: 30vh;
+    width: 84vw;
+    background: #C1F7D5;
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 1;
+    color: #354463;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+.foot-col-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    height: 30vh;
+    width: 16vw;
+    padding-right: 4vw;
+}
+
+.foot-col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    height: 30vh;
+    width: 16vw;
+    padding-right: 4vw;
+}
+.foot-col-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    height: 30vh;
+    width: 16vw;
+    padding-right: 4vw;
+}
+.foot-col-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: flex-start;
+    height: 30vh;
+    width: 16vw;
+    padding-right: 4vw;
+}
+
+.foot-col-head{
+    font-weight: bold;
+    font-size: 1.8vw;
+    margin-bottom: 0.3vw;
+}
+
+.foot-col-content{
+    font-size: 1.1vw;
+    font-weight: lighter;
+}
