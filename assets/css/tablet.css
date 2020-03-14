@@ -1,0 +1,170 @@
+/*-----------------------------> Media Query for tablet <------------------------------- */
+
+@media (min-width:393px) and (max-width: 767px) {
+
+    /*-----------------------------> navigation bar <----------------------------------- */
+    
+    .nav{
+        font-family: Helvetica, Arial, sans-serif;
+        height: 14vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .nav-logo{
+        font-size: 3vw;
+        width: 70vw;
+        display: flex;
+        justify-content: flex-start;
+        margin-right: 9vw;
+        opacity: 1;
+    }
+    
+    .nav-story{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;   
+        width: 40vw;
+        font-size: 2vw;
+        margin-right: 38vw;
+        font-weight: lighter;
+    }
+    
+    .nav-donate{
+        display: flex;
+        position: absolute;
+        top: auto;
+        right: 0em;
+        justify-content: center;
+        background: #c1f7d5;
+        border-radius: 5vw;
+        padding: 1.5% 1%;
+        width: 8vw;
+        min-width: 7em;
+        min-height: 1.5em;
+        font-size: 2.2vw;
+        font-weight: bolder;
+    }
+    
+    a:link{
+        color: #354463;
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: #354463;
+        text-decoration: none;
+      }
+    
+    /*-----------------------> Images with box and HashTag image <--------------------- */
+    
+    .slide-img{
+    background-image: url('../images/tablet-background.png');
+    height: 89vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    }
+
+    .hash-tag-img{
+        height: 22vh;
+        width: 18vw;
+        position: absolute;
+        top: 8vw;
+        left: 8vw;
+    }
+
+    .issue-box{
+        width: 60vw;
+        height: 21vw;
+        padding: 8vh 8vw;
+        position: absolute;
+        top: 40vw;
+        left: 12vw;
+    }
+
+    .issue-head{
+        font-size: 12px;
+        font-weight: lighter;
+        text-align: center;
+        opacity: 1;
+        height: 1.6vh;
+        width: 16vh;
+        padding: 1em 1 em;
+        bottom: 11vh;
+    }    
+
+    .issue-big-text{
+        font-size: 4.4vw;
+        margin-top: -6vw;
+    }
+
+    .issue-small-text{
+        font-size: 2vw;
+        text-align: left;
+        font-weight: lighter;
+        text-decoration: underline;
+        margin-top: 6vw;
+        flex-wrap: wrap;
+    }
+
+    /*------------------------------------> footer <------------------------------------ */
+    
+    .action-head{
+        font-weight: lighter;
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        opacity: 1;
+        background: #354463;
+        height: 2vh;
+        width: 14vh;
+        padding: 0.7em 1.4em;
+    }
+
+    .foot-action{
+        height: 40vh;
+        width: 76vw;
+        flex-wrap: wrap;
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
+    
+    .foot-col-1{
+        height: 20vh;
+        width: 30vw;
+        padding-right: 6vw;
+        padding-top: 6vw;
+    }
+
+    .foot-col-2{
+        height: 20vh;
+        width: 30vw;
+        padding-left: 6vw;
+        padding-top: 6vw;
+    }
+    
+    .foot-col-3{
+        height: 20vh;
+        width: 30vw;
+        padding-right: 6vw;
+    }
+
+    .foot-col-4{
+        height: 20vh;
+        width: 30vw;
+        padding-left: 6vw;
+    }
+
+    .foot-col-head{
+        font-size: 3vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .foot-col-content{
+        font-size: 2vw;
+        font-weight: lighter;
+    }    
+}
